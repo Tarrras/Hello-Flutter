@@ -43,12 +43,6 @@ class RandomWordState extends State<RandomWords> {
 
   void _pushSaved() {}
 
-  Widget buildDivider() {
-    return Scaffold(
-      body: Text("Shit"),
-    );
-  }
-
   Widget _buildSuggestions() {
     return ListView.builder(
       padding: const EdgeInsets.all(20),
